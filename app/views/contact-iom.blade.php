@@ -117,9 +117,6 @@
 							<body>
 								<div id="map-canvas"/>
 
-								<script type="text/javascript"
-									src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBp-Cz8yfpQ1xP6WwGbgXxixGiXgOAffmY&sensor=false">
-								</script>
 								<script>
 									'use strict';
 
