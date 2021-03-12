@@ -1,0 +1,384 @@
+h1, h2, h3, h4, h5 {
+    font-family: 'Helvetica', sans-serif;
+    text-shadow: #ffffff 1px 1px 1px;
+    font-weight: 700;
+}
+
+h2, h3, h4 {
+    color: $grey;
+}
+
+p {
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: $grey;
+    font-size: 0.9rem;
+}
+
+legend {
+    color: $red;
+}
+
+#mainContent {
+  background-color: #f2f2f2;
+  width:100%;
+  height:100%;
+  padding-top:50px;
+}
+
+#homePanels {
+	margin-bottom:60px;
+	text-align: center;
+	.homeSectionIntro {
+		min-height: 100px;
+	}
+	h3 {
+		text-align: center;
+	}
+}
+
+#homeIntro {
+	margin: 80px auto;
+	text-align: center;
+	h4 {
+		font-size: 1.2rem;
+		text-align: center;
+	}
+	hr {
+		margin: 0.5rem auto;
+	}
+	img {
+		margin: 20px auto 10px;
+	}
+}
+
+#homeLending {
+	background-color: $blue;
+	color: white;
+	text-align: center;
+	h4 {
+		font-size: 1.2rem;
+		text-align: center;
+		color: white;
+		text-shadow: none;
+	}
+	p {
+		color: white;
+	}
+	img {
+		margin: 0 auto 10px;
+	}
+	#lendingIntro {
+		margin: 80px auto;
+	}
+}
+
+.center {
+	text-align: center;
+}
+
+#smallPrint {
+	text-align: center;
+	p {
+		font-size: 13px;
+	}
+}
+
+#footerIcon {
+	text-align: center;
+	margin: 10px auto 40px;
+}
+
+.financeSectionIcon {
+	text-align: center;
+}
+
+#contactJersey {
+	padding-left:20px;
+	padding-right:20px;
+}
+
+#contactMap {
+	margin-bottom: 40px;
+}
+
+.faqs {
+	margin-bottom:20px;
+}
+
+.privacy {
+	margin-bottom:20px;
+}
+
+#personalDetails {
+    display: none;
+}
+
+#employmentDetails {
+    display: none;
+}
+
+#contactDetails {
+    display: none;
+}
+
+#agreements {
+    display: none;
+}
+
+#loanParticlars {
+}
+
+#repayments {
+    text-align: center;
+    font-size: 40px;
+    height: 50px;
+    font-weight: 900;
+    text-shadow: #fff 1px 1px 1px;
+    color: #666666;
+    width: 100%;
+}
+
+#preFooter {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height: auto;
+	@media #{$small} { 
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+}
+
+#testimonialFooter {
+	min-height: 340px;
+	background-color: white;
+	.panel {
+		background-color: white;
+		border-radius: 6px;
+		margin-bottom: 0;
+		p {
+			color: $blue;
+		}
+	}
+	h5 {
+		color: $blue;
+		margin: 20px auto 10px;
+		font-size: 1rem;
+		text-shadow: none;
+	}
+}
+
+.testimonial {
+	min-height: auto;
+	background-color: white;
+	margin-bottom: 30px;
+	.panel {
+		background-color: white;
+		border-radius: 6px;
+		margin-bottom: 0;
+		p {
+			color: $blue;
+		}
+	}
+	h5 {
+		color: $blue;
+		margin: 20px auto 10px;
+		font-size: 1rem;
+		text-shadow: none;
+	}
+}
+
+#footerComp {
+	min-height: 340px;
+	img {
+		border-top: solid 1px $grey;
+		border-bottom: solid 1px $grey;
+		margin-bottom: 10px;
+	}
+}
+
+#mainComp {
+	padding: 10px auto;
+	img {
+	border-top: solid 1px #666666;
+	border-bottom: solid 1px #666666;
+	margin: 10px auto 20px;
+	}
+	.smallPrint {
+		p {
+			font-size: 9px;
+			line-height: 10px;
+		}
+	}
+}
+
+#facebookBox {
+	min-height: 340px;
+	.flex-video {
+		padding-top: 0;
+		padding-bottom: 114%;
+	}
+}
+
+#lendingIntro {
+	margin-bottom: 30px;
+}
+
+#personalBanner {
+	width: 100%;
+	margin-bottom: 30px;
+	background-color: $orange;
+	margin-top: -50px;
+}
+
+#spreadBanner {
+	width: 100%;
+	margin-bottom: 30px;
+	background-color: $yellow;
+	margin-top: -50px;
+}
+
+#mortgagesBanner {
+	width: 100%;
+	margin-bottom: 30px;
+	background-color: $green;
+	margin-top: -50px;
+}
+
+#businessBanner {
+	width: 100%;
+	margin-bottom: 30px;
+	background-color: $businessBlue;
+	margin-top: -50px;
+}
+
+#competitionBanner {
+	width: 100%;
+	margin-bottom: 30px;
+	background-color: $purple;
+	margin-top: -50px;
+}
+
+.top-bar-section li a:not(.button) {
+	padding: 7px 16px;
+}
+
+.top-bar .toggle-topbar.menu-icon a {
+	text-indent: 0px;
+}
+
+.accordion {
+	dd {
+		border-bottom: solid 1px $midgrey;
+	}
+}
+
+#mortgageAccordion {
+	margin-bottom: 20px;
+}	
+
+#personalAccordion {
+	margin-bottom: 20px;
+}	
+
+#businessAccordion {
+	margin-bottom: 20px;
+}	
+
+#successMessage {
+	text-align: center;
+	margin-bottom: 20px;
+	@media #{$small} {
+		margin-bottom: 50px;
+	}
+}
+
+#amount {
+    text-align:center;
+    background:none;
+    box-shadow:none;
+    border:none;
+    font-size:29px;
+	@media #{$medium-up} {
+	    font-size: 40px;
+	}
+    height:50px;
+    font-weight:900;
+    text-shadow:#fff 1px 1px 1px;
+    color:#666666;
+}
+
+
+#term {
+    text-align:center;
+    background:none;
+    box-shadow:none;
+    border:none;
+    font-size:29px;
+	@media #{$medium-up} {
+	    font-size: 40px;
+	}
+    height:50px;
+    font-weight:900;
+    text-shadow:#fff 1px 1px 1px;
+    color:#666666;
+}
+
+.loanTCs {
+    text-align: center;
+    width: 100%;
+    font-size: 10px;
+}
+
+.top-bar-section li a:not(.button) {
+    line-height: 60px;
+    background: #ffffff;
+}
+
+.financeSectionIcon a {
+    color: none;
+}
+
+#rewardsFlash {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 160px;
+    height: 160px;
+    margin-top: 78px;
+    z-index: 999;
+}
+
+#spreadTheCostFlash {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 13%;
+    max-width: 150px;
+    height: 150px;
+    margin-top: 78px;
+    z-index: 999;
+}
+
+label {
+    float: left;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: #666666;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+input[type="radio"], select {
+    margin-bottom: 10px;
+}
+
+ul {
+  li {
+    font-size: 0.9rem;
+  }
+}
+
+.menuButton {
+  margin: 8px 15px;
+}
